@@ -1,0 +1,31 @@
+18:44:47.484 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+18:44:47.595 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2021-05-07 18:44:47.653:INFO::main: Logging initialized @520ms to org.seleniumhq.jetty9.util.log.StdErrLog
+18:44:47.967 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+18:44:48.826 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+18:44:51.169 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptInsecureCerts": true,
+  "browserName": "chrome",
+  "browserVersion": "latest",
+  "goog:chromeOptions": {
+    "args": [
+      "start-fullscreen"
+    ],
+    "prefs": {
+      "directory_upgrade": true,
+      "prompt_for_download": false,
+      "download.default_directory": "C:\\Users\\kaspasri\\Downloads\\WebDriver_24Feb\\WebDriver_24Feb\\webdriverio-cucumber-pom-boilerplate\\tempDownload"
+    }
+  },
+  "platformName": "windows 10",
+  "unhandledPromptBehavior": "ignore"
+}
+18:44:51.171 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 2704
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1620393293.722][WARNING]: This version of ChromeDriver has not been tested with Chrome version 90.
+18:44:54.025 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+18:44:54.065 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 7b870d089f034f18ae0a89e702de03be (org.openqa.selenium.chrome.ChromeDriverService)
+18:45:13.218 INFO [ActiveSessions$1.onStop] - Removing session 7b870d089f034f18ae0a89e702de03be (org.openqa.selenium.chrome.ChromeDriverService)

@@ -1,0 +1,5 @@
+# Keys of customers collection in mydb
+
+city: 'address.city'
+state: 'address.state'
+street: 'address.street'

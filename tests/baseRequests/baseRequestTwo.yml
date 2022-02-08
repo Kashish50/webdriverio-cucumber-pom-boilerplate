@@ -1,0 +1,16 @@
+options:
+    method: 'POST'
+    uri: 'https://api.github.com/user/repos'
+    resolveWithFullResponse: true
+    headers:
+       user-agent: 'Kashish50'
+    auth: 
+       bearer: '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'
+    data:
+         name: 'TestingRepository'
+         description: 'This is repository for testing'
+         homepage: 'https://github.com'
+         private: false,
+         has_issues: true,
+         has_projects: true,
+         has_wiki: true

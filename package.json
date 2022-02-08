@@ -1,0 +1,55 @@
+{
+  "name": "webdriverio-cucumber-pom-boilerplate",
+  "version": "1.0.0",
+  "description": "A WebdriverIO & Cucumber Boilerplate based on Page Object Model",
+  "scripts": {
+    "test": "npx wdio wdio.conf.js --parallel=false",
+    "appium": "npx wdio wdio.appium.conf.js --port 4723",
+    "start": "npm run appium"
+  },
+  "keywords": [
+    "webdriverio",
+    "cucumber",
+    "page object model",
+    "pom"
+  ],
+  "author": "Kashish Pasrija",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@rpii/wdio-html-reporter": "0.8.6",
+    "@types/cucumber": "^7.0.0",
+    "@wdio/appium-service": "^6.1.16",
+    "@wdio/cli": "6.0.13",
+    "@wdio/cucumber-framework": "6.0.13",
+    "@wdio/local-runner": "6.0.13",
+    "@wdio/selenium-standalone-service": "^6.11.0",
+    "@wdio/spec-reporter": "5.22.4",
+    "@wdio/sync": "6.0.12",
+    "chai": "^4.0.1",
+    "chai-webdriverio": "^1.0.0",
+    "chromedriver": "^80.0.2",
+    "cucumber-html-reporter": "5.2.0",
+    "eslint": "^6.8.0",
+    "local-runner": "^0.1.1-alpha",
+    "selenium-standalone": "^6.17.0",
+    "wdio-cucumber-parallel-execution": "^3.6.7",
+    "wdio-cucumberjs-json-reporter": "1.2.0"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/node": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@wdio/cli": "^6.0.13",
+    "appium": "^1.7.2",
+    "chai-json-equal": "^0.0.1",
+    "form-data": "^2.3.3",
+    "js-yaml": "^3.13.1",
+    "json-schema": "^0.2.3",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.6.5",
+    "request-promise": "^4.2.6",
+    "webdriverio-explicit-waits": "^1.0.2"
+  }
+}

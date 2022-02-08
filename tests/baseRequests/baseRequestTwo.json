@@ -1,0 +1,22 @@
+{
+    "options": {
+        "method": "POST",
+        "uri": "https://api.github.com/user/repos",
+        "resolveWithFullResponse": true,
+        "headers": {
+            "Content-Type": "application/json",
+            "User-Agent": "Kashish50",
+            "Authorization": "Bearer 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"
+        },
+        "body": {
+            "name": "TestingRepository",
+            "description": "This is repository for testing",
+            "homepage": "https://github.com",
+            "private": "false",
+            "has_issues": "true",
+            "has_projects": "true",
+            "has_wiki": "true"
+        },
+        "json": true
+    }
+}

@@ -1,0 +1,9 @@
+options:
+    method: 'GET'
+    uri: 'https://api.github.com/user/repos'
+    resolveWithFullResponse: true
+    headers:
+       user-agent: 'Kashish50'
+    auth: 
+       bearer: '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'
+  
